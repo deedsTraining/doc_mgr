@@ -1,0 +1,151 @@
+#markup_canvas,
+#markup_canvas_display {
+	width: 100%;
+	height: 300px;
+	margin-right: 20px;
+	resize: none;
+	display:block;
+	border: 1px solid #000;
+	overflow: scroll;
+}
+
+#markup_canvas {
+	resize:none;
+}
+
+#markup_canvas_display {
+	font-size: 15pt;
+	padding: 2px;
+}
+
+#markup_form {
+	border: 1px solid #cdcdcd;
+	width: 300px;
+	float: left;
+	margin-right: 20px;
+}
+
+#markup_listing_names,
+#markup_listing_diplomatics {
+	border: 1px solid #ccc; max-width:300px; height:200px; overflow: scroll;
+}
+
+#markup_listing_names li,
+#markup_listing_diplomatics li {
+	cursor: pointer;
+}
+
+#markup_listing_names li:hover,
+#markup_listing_diplomatics li:hover {
+	background: #cdcdcd;
+}
+
+#markup_listing_names li.active,
+#markup_listing_diplomatics li.active {
+	background: yellow;
+}
+
+.top-institution-list {
+	height: 350px;
+	max-height: 350px;
+	overflow-y:auto;
+	border:1px solid black;
+}
+
+.institution-ind:nth-child(odd) {
+	background-color: whitesmoke;
+}
+
+.no-dot-list {
+	list-style:none;
+	padding-left:0
+}
+
+.form-big-table td {
+	padding: 10px 5px;
+}
+
+#main input[type="submit"] {
+    margin-top: 20px;
+}
+
+#tabs label {
+    line-height: 2;
+    margin-right: 20px;
+    min-width: 150px;
+    display: inline-block;
+}
+
+.reindex-body {
+	font-size: 16px;
+    padding: 20px;
+}
+
+.reindex-body label {
+	font-weight: bold;
+	display: block;
+	margin-bottom: 10px
+}
+
+.reindex-body input[type=file] { 
+	display: block;
+}
+
+.reindex-body input[type=text] { 
+	font-size: 15px;
+
+ }
+
+.reindex-body .msg { 
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px
+}
+
+.reindex-body input[name=reindex] {
+	font-size: 20px; 
+    height: 55px;
+    font-size: 20px;
+    padding: 0 30px;
+    margin-top: 30px;
+    display: block;
+}
+
+.reindex-body .result {
+	line-height: 1.5; 
+	font-size: 14px;
+    border-color: silver;
+    margin-top: 20px;
+    padding: 20px
+}
+
+.reindex-instructions { 
+	font-size: 14px;
+	line-height: 1.5; 	
+    padding: 0 30px;
+    display: block;
+}
+
+.reindex-instructions ol { 
+}
+.reindex-instructions xmp {
+	border: 1px solid #E0E0E3; 
+	margin-bottom: 10px;
+	overflow: auto;
+	width: auto;
+	padding: 5px;
+	background-color: #eee;
+	width: 500px;
+	max-height: 600px;
+}
+
+.instructions-toggle { 
+	cursor: pointer;
+}
+
+.instructions-toggle-body { 
+	display: none;
+}
